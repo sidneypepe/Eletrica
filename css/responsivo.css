@@ -1,0 +1,140 @@
+/*Tablet*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    
+     .topo-do-site{
+        background-image: url(../img/banner-tablet.png);
+        background-size: cover;
+        
+        
+     }
+
+     .topo-do-site h1{
+        font-size: 31px;
+     }  
+     .secao-1 h2{
+        font-size: 28px;
+
+     }
+     .render{
+        margin-top: 161px;
+     }
+     .secao-2 h2{
+        font-size: 28px;
+        margin-top: 110px;     
+    }
+    .secao-2 p{
+        font-size: 16px;
+    }
+    .secao-3 li{
+        width: 236px;
+    }
+    .secao-3 li p{
+        font-size: 14px;
+    }
+    .secao-3 li h3{
+        font-size: 18px;
+    }
+}
+
+/*Smartphone*/
+
+@media only screen and (max-width: 768px){
+    
+	.topo-do-site{
+        background-image: url(../img/banner-cel.png);
+        background-size: cover;
+    }
+.topo-do-site h1{
+   font-size: 25px;
+   margin-top: 20px;
+} 
+.hamburger{
+    display: block;
+    z-index: 1;
+} 
+.nav-list{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:#eeee;
+    clip-path:circle(100px at 90% -45%);
+    transition: 300ms ease-out;
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+    pointer-events: none;
+}
+.nav.active .nav-list{
+    clip-path: circle(1500px at 90% -15%);
+    pointer-events: all;
+}
+.topo-do-site p{
+   font-size: 18px;
+
+}
+.topo-do-site .botao{
+    margin-top: 370px;
+}
+.secao-1 h2{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.secao-1 .imagens-secao{
+    display: none;
+}
+.secao-2 img{
+    display: none;
+}
+.secao-2 h2{
+    font-size: 25px;
+    margin-top: 25px;
+    color: yellow;
+}
+.secao-3 h2{
+    font-size: 22px;
+}
+.secao-4 p{
+    font-size: 30px;
+    text-decoration:underline;
+}
+.secao-4 h2{
+    font-size: 21px;
+}
+.secao-4{
+    height: 800px;
+}
+.secao-6 img{
+    display: none;
+}
+.secao-7 h1{
+    color: white;
+    font-size: 17px;
+}
+.secao-7{
+    height: 3000px;
+}
+.secao-8 img{
+    margin-top: 40px;
+}
+.secao-9 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+.secao-9 h2{
+    margin-top: 2px;
+
+}
+.secao-9{
+    height: 600px;
+}
+.secao-9 .topo{
+    width: 30px;
+    height: 3vw;
+}
+}
